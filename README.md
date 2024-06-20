@@ -17,7 +17,7 @@
 </div>
 
 ## Download 🔥
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on Releases" height="80">](https://f-droid.org/en/packages/ru.aleshin.timeplanner/)
+[<img src="https://raw.githubusercontent.com/flocke/andOTP/master/assets/badges/get-it-on-github.png" alt="Get it on Releases" height="80">](https://f-droid.org/en/packages/ru.aleshin.timeplanner/)
 <a href="https://apt.izzysoft.de/fdroid/index/apk/ru.aleshin.timeplanner" target="_blank">
 
 ## Available languages 🌍

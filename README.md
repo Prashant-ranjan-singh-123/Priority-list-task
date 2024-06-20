@@ -34,9 +34,6 @@
 - Clean Architecture
 - Multi-modularity (by features)
 - Compose UI (Material Design 3)
-- Kotlin Coroutines & Flow
-- [Voyager](https://github.com/adrielcafe/voyager) navigation
-- Charts: [Charty](https://github.com/hi-manshu/Charty), [Compose-Charts](https://github.com/humawork/compose-charts)
 
 ## Donation to support application development ❤️
 <details>

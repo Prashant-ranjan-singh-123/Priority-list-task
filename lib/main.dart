@@ -53,7 +53,7 @@ void main() async {
   const AndroidInitializationSettings initializationSettingsAndroid =
       AndroidInitializationSettings('@mipmap/ic_launcher');
   const LinuxInitializationSettings initializationSettingsLinux =
-      LinuxInitializationSettings(defaultActionName: 'ToDark');
+      LinuxInitializationSettings(defaultActionName: 'Priority_list');
   const InitializationSettings initializationSettings = InitializationSettings(
       android: initializationSettingsAndroid,
       linux: initializationSettingsLinux,
@@ -86,7 +86,7 @@ Future<void> initSettings() async {
   }
 
   if (settings.theme == null) {
-    settings.theme = 'system';
+    settings.theme = 'dark';
     isar.writeTxnSync(() => isar.settings.putSync(settings));
   }
 
@@ -226,7 +226,7 @@ class _MyAppState extends State<MyApp> {
             debugShowCheckedModeBanner: false,
             home: settings.onboard ? const HomePage() : const OnBording(),
             builder: EasyLoading.init(),
-            title: 'ToDark',
+            title: 'Priority-list-task',
           );
         },
       ),

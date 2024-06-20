@@ -35,26 +35,9 @@
 - Multi-modularity (by features)
 - Compose UI (Material Design 3)
 
-## Donation to support application development ❤️
-<details>
-  <summary>Main direct addresses</summary>
-
-    1. BTC: bc1qu0a5ujldf8rpc8yz8atlgphrj9wutgfxw82dql
-    2. ETH: 0x4cAfa6De0D1968cA8C2a7aB06CE28d0A1aD2C7b9
-    3. TRX: TKC3NsKSS9hJRvofeJKceT5wC2bqTkPRUE
-    4. LTC: ltc1qj9fsz4pxrvr3eqyel4q8jnsnfpcfwdsj3mvpec
-    5. XEC: ecash:qqc0k95nfhkseel9p4avz5jwk6s4vum7rceegten5x
-    6. BNB/BTCB: 0xbA08E4905B3d52f480419A8444C4de3E91BC98df
-</details>
-
-<a href="https://nowpayments.io/donation?api_key=BQCNJB8-HRJ48T7-G31XH21-CFTX91M&source=lk_donation&medium=referral" target="_blank">
- <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button by NOWPayments" height="70">
-</a>
-
-## ✨Sponsors✨
-### These are our really cool sponsors!
+## ✨Company✨
 <p align="left">
-  <a href="https://github.com/serrq"><img src="https://avatars.githubusercontent.com/u/113377431?v=4" width="50px" alt="serrq" align="center" />
+  <a href="https://github.com/serrq"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/images/company_logo.png" width="50px" alt="serrq" align="center" />
 </p>
 
 ## Screenshots 📸

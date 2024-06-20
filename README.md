@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">TimePlanner</h1>
+<h1 align="center">Priority List Task</h1>
 
 </br>
 <p align="center">

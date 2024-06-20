@@ -55,24 +55,6 @@
   </tr>
  </table>
 
-## Project structure ⚙️
-<p>
-<img src="https://github.com/v1tzor/TimePlanner/assets/116388544/c86b1172-f503-4cfe-9575-b8b2e7d93175" width="100%"></img>
-</p>
-
-## Standard Feature structure 📁
-<p>
-<img src="https://i.imgur.com/zXWMQI4.png" width="100%"></img>
-</p>
-
-## MVI 🔨
-<p>
-<img src="https://i.imgur.com/52HH2rO.png"></img>
-</p>
-<p>
-<img src="https://github.com/v1tzor/TimePlanner/assets/116388544/3f3d0e30-92ec-40eb-b966-0031ae60f72a"></img>
-</p>
-
 ### License
 
 ```

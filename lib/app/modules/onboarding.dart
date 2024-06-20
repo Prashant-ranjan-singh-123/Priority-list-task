@@ -125,17 +125,17 @@ class Onboard {
 
 final List<Onboard> data = [
   Onboard(
-      image: 'assets/images/Task.png',
-      title: 'title1'.tr,
-      description: 'subtitle1'.tr),
+      image: 'assets/images/company_logo.png',
+      title: '',
+      description: 'This project is to make to do list application as an task assigned by quantum it innovation'),
   Onboard(
       image: 'assets/images/Design.png',
       title: 'title2'.tr,
       description: 'subtitle2'.tr),
   Onboard(
-      image: 'assets/images/Feedback.png',
-      title: 'title3'.tr,
-      description: 'subtitle3'.tr),
+      image: 'assets/images/Task.png',
+      title: 'title1'.tr,
+      description: 'subtitle1'.tr),
 ];
 
 class OnboardContent extends StatelessWidget {
@@ -155,9 +155,12 @@ class OnboardContent extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                image,
-                scale: 5,
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Image.asset(
+                  image,
+                  scale: 5,
+                ),
               ),
               Text(
                 title,

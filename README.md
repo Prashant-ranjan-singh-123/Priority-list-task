@@ -20,6 +20,11 @@
 [<img src="https://raw.githubusercontent.com/flocke/andOTP/master/assets/badges/get-it-on-github.png" alt="Get it on Releases" height="80">](https://f-droid.org/en/packages/ru.aleshin.timeplanner/)
 <a href="https://apt.izzysoft.de/fdroid/index/apk/ru.aleshin.timeplanner" target="_blank">
 
+## ✨Company✨
+- Task Assigned By Quantum To Build To-do-list all thanks to them to motivate me to build such as amazing application.
+<p align="left">
+  <a href="https://github.com/serrq"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/images/company_logo.png" width="250px" alt="serrq" align="center" />
+</p>
 
 ## Support 📱
 - To-do List 
@@ -34,11 +39,6 @@
 - Clean Architecture
 - Multi-modularity (by features)
 - Compose UI (Material Design 3)
-
-## ✨Company✨
-<p align="left">
-  <a href="https://github.com/serrq"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/images/company_logo.png" width="250px" alt="serrq" align="center" />
-</p>
 
 ## Screenshots 📸
 

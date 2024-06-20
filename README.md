@@ -37,7 +37,7 @@
 
 ## ✨Company✨
 <p align="left">
-  <a href="https://github.com/serrq"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/images/company_logo.png" width="50px" alt="serrq" align="center" />
+  <a href="https://github.com/serrq"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/images/company_logo.png" width="250px" alt="serrq" align="center" />
 </p>
 
 ## Screenshots 📸

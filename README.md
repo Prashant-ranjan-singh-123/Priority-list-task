@@ -1,6 +1,6 @@
 <div align="center">
 </br>
-<img src="https://github.com/v1tzor/TimePlanner/assets/116388544/b1b73712-0b71-431f-94fa-c5b5631b8109" width="200" />
+<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/icons/icon.png" width="200" />
 
 </div>
 

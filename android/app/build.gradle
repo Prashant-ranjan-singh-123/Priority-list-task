@@ -22,12 +22,6 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
-
 android {
     namespace "com.prashant.task.priority.list"
     compileSdkVersion 34
@@ -54,23 +48,9 @@ android {
         versionName flutterVersionName
     }
 
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-            storePassword keystoreProperties['storePassword']
-        }
-    }
-
     buildTypes {
         release {
-            signingConfig signingConfigs.release
-        }
-
-        debug {
-            signingConfig signingConfigs.debug
-            minifyEnabled true
+            signingConfig = signingConfigs.debug
         }
     }
 }

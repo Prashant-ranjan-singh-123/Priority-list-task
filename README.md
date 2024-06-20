@@ -1,6 +1,6 @@
 <div align="center">
 </br>
-<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/assets/icons/icon.png" width="200" />
+<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/priview.png" width="200" />
 
 </div>
 

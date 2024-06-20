@@ -1,3 +1,4 @@
+import 'package:android_intent_plus/android_intent.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -58,6 +59,58 @@ class _SettingsPageState extends State<SettingsPage> {
     }
   }
 
+  void _openLinkedin() async {
+    Future<bool> isLinkedInInstalled() async {
+      Uri url = Uri.parse('linkedin://');
+      if (await canLaunchUrl(url)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    String dt = 'https://www.linkedin.com/in/prashant-ranjan-singh-b9b6b9217/';
+    bool isInstalled = await isLinkedInInstalled();
+    if (isInstalled != false) {
+      AndroidIntent intent = AndroidIntent(action: 'action_view', data: dt);
+      await intent.launch();
+    } else {
+      Uri url = Uri.parse(dt);
+      if (await canLaunchUrl(url)) {
+        await launchUrl(url);
+      } else {
+        throw 'Could not launch $url';
+      }
+    }
+  }
+
+  void _openGithub() async {
+    Future<bool> isGithubInInstalled() async {
+      Uri url = Uri.parse('github://');
+      if (await canLaunchUrl(url)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    String dt =
+        'https://github.com/Prashant-ranjan-singh-123/Priority-list-task';
+    bool isInstalled = await isGithubInInstalled();
+    if (isInstalled != false) {
+      AndroidIntent intent = AndroidIntent(action: 'action_view', data: dt);
+      await intent.launch();
+    } else {
+      Uri url = Uri.parse(dt);
+      if (await canLaunchUrl(url)) {
+        await launchUrl(url);
+      } else {
+        throw 'Could not launch $url';
+      }
+    }
+  }
+
+
   @override
   void initState() {
     infoVersion();
@@ -79,6 +132,7 @@ class _SettingsPageState extends State<SettingsPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            profile_photo(),
             SettingCard(
               icon: const Icon(Iconsax.brush_1),
               text: 'appearance'.tr,
@@ -252,17 +306,67 @@ class _SettingsPageState extends State<SettingsPage> {
               ),
               text: '${'project'.tr} GitHub',
               onPressed: () async {
-                final Uri url =
-                    Uri.parse('https://github.com/Prashant-ranjan-singh-123/Priority-list-task');
-                if (!await launchUrl(url,
-                    mode: LaunchMode.externalApplication)) {
-                  throw Exception('Could not launch $url');
-                }
+                _openGithub();
               },
             ),
+
+            SettingCard(
+              icon: Image.asset(
+                'assets/images/linkedin.png',
+                scale: 20,
+              ),
+              text: 'Connect On Linkedin',
+              onPressed: () async {
+                _openLinkedin();
+              },
+            ),
+
+
+            thank_you()
           ],
         ),
       ),
+    );
+  }
+
+  Widget profile_photo() {
+    return Column(
+      children: [
+        const SizedBox(
+          height: 10,
+        ),
+        Center(
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: SizedBox(
+              height: Get.width * 0.8,
+              width: Get.width * 0.8,
+              child: Image.asset('assets/icons/profile_photo.jpeg'),
+            ),
+          ),
+        ),
+        const SizedBox(
+          height: 30,
+        ),
+      ],
+    );
+  }
+
+  Widget thank_you() {
+    return const Column(
+      children: [
+        SizedBox(
+          height: 20,
+        ),
+        Center(
+            child: Text(
+              '----Thank You----',
+              style: TextStyle(fontSize: 30, fontFamily: 'OpenSans'),
+            )),
+        SizedBox(
+          height: 20,
+        ),
+      ],
     );
   }
 }

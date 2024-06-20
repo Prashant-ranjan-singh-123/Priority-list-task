@@ -44,14 +44,29 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/64c6c55f-e3b4-42ab-bf80-5307414c06d4" align="left" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/0c7fd186-6735-4023-9260-2d6ea47765c7" align="center" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/59859427-f44f-4be3-ad44-a93f614b27d5" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/1.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/2.png" align="center" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/3.png" align="right" width="350dp"></td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/a7e301d0-6898-4f21-9ab1-2f40c9b52f86" align="left" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/f5cd2201-36e1-422e-8a33-69ce0076b3a7" align="right" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/v1tzor/TimePlanner/assets/116388544/b074abc2-47d0-472c-b655-b08c49c41a5a" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/4.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/5.png" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/6.png" align="right" width="350dp"></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/7.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/8.png" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/9.png" align="right" width="350dp"></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/10.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/11.png" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/12.png" align="right" width="350dp"></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/13.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/14.png" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/15.png" align="right" width="350dp"></td>
   </tr>
  </table>
 

@@ -59,7 +59,7 @@
     <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/9.png" align="right" width="350dp"></td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/10.png" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readmLe/10.png" align="left" width="350dp"></td>
     <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/11.png" align="right" width="350dp"></td>
     <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/12.png" align="right" width="350dp"></td>
   </tr>

@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
     if(index==0){
       return Icon(Iconsax.folder_2, size: 25, color: context.iconColor,);
     }else if (index ==1){
-      return Icon(Icons.shopping_cart_outlined, size: 25, color: context.iconColor,);
+      return Icon(Iconsax.task_square, size: 25, color: context.iconColor,);
     }else{
       return Icon(Iconsax.setting, size: 25, color: context.iconColor,);
     }

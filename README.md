@@ -20,37 +20,21 @@
 [<img src="https://raw.githubusercontent.com/flocke/andOTP/master/assets/badges/get-it-on-github.png" alt="Get it on Releases" height="80">](https://f-droid.org/en/packages/ru.aleshin.timeplanner/)
 <a href="https://apt.izzysoft.de/fdroid/index/apk/ru.aleshin.timeplanner" target="_blank">
 
-## Available languages 🌍
-- Russian 🇷🇺
-- English 🇬🇧
-- German 🇩🇪
-- Spanish 🇪🇸
-- French 🇫🇷
-- Turkish 🇹🇷
-- Persian 🇮🇷 (beta)
-- Vietnamese 🇻🇳
-- Polish 🇵🇱
 
 ## Support 📱
-- Local time and task analytics 📊
-- Templates for everyday tasks 🏃‍♂️
-- Recurring tasks by templates 🔁
-- Data Backup & Recovery 💾
+- To-do List 
+- Alert On Time
 - Scheduled Notifications ⏰
 - Priorities and protection from overlaying tasks 📐
 - Theme: Dark | Light 🖤🤍
-- Dynamic Color or 4 different color variations 🎨
 
 ## Technologies stack 🚀
 - Single Activity
-- MVI Architecture
+- Getx State Management
 - Clean Architecture
 - Multi-modularity (by features)
 - Compose UI (Material Design 3)
 - Kotlin Coroutines & Flow
-- Room Database
-- Dagger 2
-- Unit tests
 - [Voyager](https://github.com/adrielcafe/voyager) navigation
 - Charts: [Charty](https://github.com/hi-manshu/Charty), [Compose-Charts](https://github.com/humawork/compose-charts)
 

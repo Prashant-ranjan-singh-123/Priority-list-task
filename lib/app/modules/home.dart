@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
   final pages = const [
     AllTasks(),
     AllTodos(),
-    CalendarTodos(),
     SettingsPage(),
   ];
 
@@ -55,18 +54,13 @@ class _HomePageState extends State<HomePage> {
             label: 'allTodos'.tr,
           ),
           NavigationDestination(
-            icon: const Icon(Iconsax.calendar_1),
-            selectedIcon: const Icon(Iconsax.calendar5),
-            label: 'calendar'.tr,
-          ),
-          NavigationDestination(
             icon: const Icon(Iconsax.category),
             selectedIcon: const Icon(Iconsax.category5),
             label: 'settings'.tr,
           ),
         ],
       ),
-      floatingActionButton: tabIndex == 3
+      floatingActionButton: tabIndex == 2
           ? null
           : FloatingActionButton(
               onPressed: () {

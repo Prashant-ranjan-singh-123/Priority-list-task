@@ -15,7 +15,9 @@ ColorScheme colorSchemeLight = ColorScheme.fromSeed(
 );
 ColorScheme colorSchemeDark = ColorScheme.fromSeed(
   seedColor: Colors.indigo,
-  brightness: Brightness.dark,
+  brightness: Brightness.dark, 
+
+  
 );
 
 ThemeData lightTheme(Color? color, ColorScheme? colorScheme) {

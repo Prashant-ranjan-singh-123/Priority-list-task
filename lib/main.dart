@@ -61,8 +61,10 @@ void main() async {
   await flutterLocalNotificationsPlugin.initialize(initializationSettings);
   await IsarController().openDB();
   await initSettings();
-  runApp(const MyApp());
+  runApp(MyApp()); 
 }
+
+
 
 Future<void> setOptimalDisplayMode() async {
   final List<DisplayMode> supported = await FlutterDisplayMode.supported;

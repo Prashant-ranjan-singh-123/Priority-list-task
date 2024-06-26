@@ -61,10 +61,7 @@ void main() async {
   await flutterLocalNotificationsPlugin.initialize(initializationSettings);
   await IsarController().openDB();
   await initSettings();
-  runApp(const MyApp());  
-  
-
-
+  runApp(const MyApp());
 }
 
 
